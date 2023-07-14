@@ -1,8 +1,10 @@
 import random
+
 """
 CP1404/CP5632 Practice
 Quick picks
 """
+
 NUMBERS_PER_LINE = 6
 MINIMUM = 1
 MAXIMUM = 45

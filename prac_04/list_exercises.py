@@ -1,7 +1,9 @@
+
 """
 CP1404/CP5632 Practical
 List exercise
 """
+
 
 # 1. Numbers stuff
 numbers = []

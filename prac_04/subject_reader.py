@@ -1,8 +1,8 @@
+
 """
 CP1404/CP5632 Practical
 Subject reader
 """
-
 FILENAME = "subject_data.txt"
 
 
