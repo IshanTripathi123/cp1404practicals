@@ -12,10 +12,14 @@ ans: yes we can change the code to avoid the possibility of a ZeroDivisionError.
 try:
     numerator = int(input("Enter the numerator: "))
     denominator = int(input("Enter the denominator: "))
-    fraction = numerator / denominator
-    print(fraction)
+    if denominator != 0:
+        fraction = numerator / denominator
+        print(fraction)
+    else:
+        print("Cannot divide by zero")
+
 except ValueError:
     print("Numerator and denominator must be valid numbers!")
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
-print("Finished.")
+# except ZeroDivisionError:
+#     print("Cannot divide by zero!")
+# print("Finished.")
